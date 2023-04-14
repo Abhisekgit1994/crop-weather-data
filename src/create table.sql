@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS yield_data (year integer, value integer)
+CREATE TABLE IF NOT EXISTS weather_data (station_id varchar(100), date DATE, max_temperature integer, min_temperature integer, precipitation_amount integer)

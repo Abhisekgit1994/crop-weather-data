@@ -1,0 +1,191 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Weather API",
+    "version": "1.0",
+    "description": "API to retrieve weather data and statistics"
+  },
+  "basePath": "/api",
+  "schemes": [
+    "http"
+  ],
+  "tags": [
+    {
+      "name": "Weather"
+    }
+  ],
+  "paths": {
+    "/weather": {
+      "get": {
+        "tags": [
+          "Weather"
+        ],
+        "summary": "Get weather data",
+        "description": "Retrieve weather data based on query parameters",
+        "parameters": [
+          {
+            "name": "start_date",
+            "in": "query",
+            "description": "Start date of data to retrieve (YYYY-MM-DD) if not given it will take from the start of the storage",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "end_date",
+            "in": "query",
+            "description": "End date of data to retrieve (YYYY-MM-DD) if not given it will take till end",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "station_id",
+            "in": "query",
+            "description": "ID of the weather station to retrieve data from if not given it will take all station id into accounts",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "page_size",
+            "in": "query",
+            "description": "Number of records to retrieve per page (default 20) for pagination",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "page_number",
+            "in": "query",
+            "description": "Page number results to retrieve (default 1) for pagination",
+            "required": false,
+            "type": "integer"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "date": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "Date of the weather data in format (YYYY-MM-DD)"
+                  },
+                  "station_id": {
+                    "type": "string",
+                    "description": "ID of the weather station"
+                  },
+                  "max_temperature": {
+                    "type": "integer",
+                    "description": "Maximum temperature in degrees Celsius"
+                  },
+                  "min_temperature": {
+                    "type": "integer",
+                    "description": "Minimum temperature in degrees Celsius"
+                  },
+                  "precipitation_amount": {
+                    "type": "integer",
+                    "description": "Precipitation amount in centimeters"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request parameters"
+          },
+          "404": {
+            "description": "No records found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/weather/stats": {
+      "get": {
+        "tags": [
+          "Weather"
+        ],
+        "summary": "Get weather data statistics",
+        "description": "Retrieve statistics on weather data based on query parameters",
+        "parameters": [
+          {
+            "name": "start_date",
+            "in": "query",
+            "description": "Start date of data to retrieve (YYYY-MM-DD) if not given it will take from the start of the storage",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "end_date",
+            "in": "query",
+            "description": "End date of data to retrieve (YYYY-MM-DD) if not given it will take till end",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "station_id",
+            "in": "query",
+            "description": "ID of the weather station to retrieve data from if not given it will take all station id into accounts",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "page_size",
+            "in": "query",
+            "description": "Number of records to retrieve per page (default 20) for pagination",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "page_number",
+            "in": "query",
+            "description": "Page number results to retrieve (default 1) for pagination",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "year": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "station_id": {
+                    "type": "string"
+                  },
+                  "avg_max_temperature": {
+                    "type": "integer",
+                    "format": "double"
+                  },
+                  "avg_min_temperature": {
+                    "type": "integer",
+                    "format": "double"
+                  },
+                  "total_precipitation_amount": {
+                    "type": "integer",
+                    "format": "double"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

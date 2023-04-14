@@ -1,0 +1,607 @@
+2023-04-12 02:25:41,777 INFO Data ingestion process started at 1681280741.7776582
+2023-04-12 03:22:21,848 INFO Data ingestion process started at 1681284141.8466127
+2023-04-12 03:22:21,855 INFO Data ingestion process ended at 1681284141.8556125. Number of non duplicate records ingested into the table [weather_data] : 30
+2023-04-12 03:23:21,214 INFO Data ingestion process started at 1681284201.2110076
+2023-04-12 03:23:21,217 INFO Data ingestion process ended at 1681284201.2170005. Number of non duplicate records ingested into the table [weather_data] : 0
+2023-04-12 03:23:35,577 INFO Data ingestion process started at 1681284215.5758066
+2023-04-12 03:23:35,581 INFO Data ingestion process ended at 1681284215.5818071. Number of non duplicate records ingested into the table [yield_data] : 0
+2023-04-12 03:24:10,089 INFO Data ingestion process started at 1681284248.8239021
+2023-04-12 03:24:10,091 INFO Error syntax error at or near ","
+LINE 1: ... 1 FROM weather_data WHERE station_id='NaN'::float, date='Na...
+                                                             ^
+ occurred at 1681284248.8239021 while inserting data into weather_data
+2023-04-12 03:25:05,176 INFO Data ingestion process started at 1681284303.914275
+2023-04-12 03:25:05,177 INFO Error syntax error at or near ","
+LINE 1: ... 1 FROM weather_data WHERE station_id='NaN'::float, date='Na...
+                                                             ^
+ occurred at 1681284303.914275 while inserting data into weather_data
+2023-04-12 15:16:30,110 INFO Data ingestion process started at 1681326985.6110942
+2023-04-12 15:16:30,197 INFO Error syntax error at or near ","
+LINE 1: ...1 FROM weather_data WHERE station_id='USC00110072', date=198...
+                                                             ^
+ occurred at 1681326985.6110942 while inserting data into weather_data
+2023-04-12 15:18:01,780 INFO Data ingestion process started at 1681327076.9280486
+2023-04-12 15:18:01,866 INFO Error syntax error at or near ","
+LINE 1: ...1 FROM weather_data WHERE station_id='USC00110072', date=198...
+                                                             ^
+ occurred at 1681327076.9280486 while inserting data into weather_data
+2023-04-12 15:18:36,034 INFO Data ingestion process started at 1681327111.111003
+2023-04-12 15:18:36,118 INFO Error not all arguments converted during string formatting occurred at 1681327111.111003 while inserting data into weather_data
+2023-04-12 15:19:43,580 INFO Data ingestion process started at 1681327179.0019028
+2023-04-12 15:19:43,655 INFO Error not all arguments converted during string formatting occurred at 1681327179.0019028 while inserting data into weather_data
+2023-04-12 16:53:47,496 INFO Data ingestion process started at 1681332827.4943745
+2023-04-12 16:53:47,501 INFO Data ingestion process ended at 1681332827.5013745. Number of non duplicate records ingested into the table [yield_data] : 0
+2023-04-12 16:55:23,189 INFO Data ingestion process started at 1681332918.6983333
+2023-04-12 16:55:23,294 INFO Error not all arguments converted during string formatting occurred at 1681332918.6983333 while inserting data into weather_data
+2023-04-12 16:56:10,462 INFO Data ingestion process started at 1681332965.7839518
+2023-04-12 16:56:10,549 INFO Error not all arguments converted during string formatting occurred at 1681332965.7839518 while inserting data into weather_data
+2023-04-12 17:00:41,546 INFO Error Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'. occurred at 1681333241.3705204 while inserting data into weather_data
+2023-04-12 17:05:40,833 INFO Data ingestion process started at 1681333536.1479652
+2023-04-12 17:07:02,691 INFO Data ingestion process started at 1681333617.3568997
+2023-04-12 17:28:11,360 INFO Data ingestion process started at 1681334886.6786113
+2023-04-12 17:30:07,499 INFO Data ingestion process started at 1681335002.9312105
+2023-04-12 17:34:56,248 INFO Data ingestion process ended at 1681335296.2481275. Number of non duplicate records ingested into the table [weather_data] : 1729957
+2023-04-12 18:50:59,139 INFO Data ingestion process started at 1681339854.6606495
+2023-04-12 18:54:44,811 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 18:54:46,737 WARNING  * Debugger is active!
+2023-04-12 18:54:46,744 INFO  * Debugger PIN: 351-119-005
+2023-04-12 18:54:46,843 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 18:55:09,638 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2023-04-12 18:55:09,648 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2023-04-12 18:55:09,660 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\http\\server.py', reloading
+2023-04-12 18:55:09,670 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\socketserver.py', reloading
+2023-04-12 18:55:09,681 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\threading.py', reloading
+2023-04-12 18:55:10,892 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 18:55:12,841 WARNING  * Debugger is active!
+2023-04-12 18:55:12,848 INFO  * Debugger PIN: 351-119-005
+2023-04-12 18:55:12,944 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 18:56:38,214 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 18:56:40,272 WARNING  * Debugger is active!
+2023-04-12 18:56:40,279 INFO  * Debugger PIN: 351-119-005
+2023-04-12 18:56:40,387 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 18:58:09,421 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 18:58:11,718 WARNING  * Debugger is active!
+2023-04-12 18:58:11,725 INFO  * Debugger PIN: 351-119-005
+2023-04-12 18:58:11,821 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 18:58:29,418 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\flask\\_compat.py', reloading
+2023-04-12 18:58:30,618 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 18:58:32,479 WARNING  * Debugger is active!
+2023-04-12 18:58:32,486 INFO  * Debugger PIN: 351-119-005
+2023-04-12 18:58:32,581 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 18:59:17,184 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 18:59:17,184 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 18:59:17,185 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 18:59:18,488 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 18:59:27,102 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 18:59:29,250 WARNING  * Debugger is active!
+2023-04-12 18:59:29,256 INFO  * Debugger PIN: 351-119-005
+2023-04-12 18:59:29,347 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:00:43,326 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:00:45,248 WARNING  * Debugger is active!
+2023-04-12 19:00:45,255 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:00:45,346 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:01:43,745 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:01:43,746 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:01:43,746 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:01:43,747 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:01:45,112 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:01:50,685 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:01:52,723 WARNING  * Debugger is active!
+2023-04-12 19:01:52,731 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:01:52,841 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:02:50,685 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\io\\sql.py', reloading
+2023-04-12 19:02:52,965 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:02:54,943 WARNING  * Debugger is active!
+2023-04-12 19:02:54,950 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:02:55,047 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:03:06,439 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:03:06,440 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:03:07,747 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:03:09,749 WARNING  * Debugger is active!
+2023-04-12 19:03:09,756 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:03:09,856 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:03:16,377 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:03:18,523 WARNING  * Debugger is active!
+2023-04-12 19:03:18,530 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:03:18,636 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:05:00,754 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:05:00,755 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:05:00,755 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:05:02,134 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:05:04,056 WARNING  * Debugger is active!
+2023-04-12 19:05:04,062 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:05:04,158 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:05:50,677 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:05:52,845 WARNING  * Debugger is active!
+2023-04-12 19:05:52,853 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:05:52,957 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:06:23,953 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\groupby\\groupby.py', reloading
+2023-04-12 19:06:23,991 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\groupby\\indexing.py', reloading
+2023-04-12 19:06:24,020 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\groupby\\ops.py', reloading
+2023-04-12 19:06:25,240 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:06:27,108 WARNING  * Debugger is active!
+2023-04-12 19:06:27,114 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:06:27,208 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:06:35,686 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:06:35,686 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:06:35,687 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:06:35,687 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:06:36,827 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:06:42,152 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:06:44,084 WARNING  * Debugger is active!
+2023-04-12 19:06:44,091 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:06:44,188 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:07:44,906 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:07:44,907 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:07:44,908 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:07:46,284 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:07:48,253 WARNING  * Debugger is active!
+2023-04-12 19:07:48,260 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:07:48,359 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:07:53,273 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:07:53,871 WARNING  * Debugger is active!
+2023-04-12 19:07:53,875 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:07:53,910 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:07:55,778 INFO 127.0.0.1 - - [12/Apr/2023 19:07:55] "[35m[1mGET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:08:27,581 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:08:27,581 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:08:27,582 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:08:28,829 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:08:29,450 WARNING  * Debugger is active!
+2023-04-12 19:08:29,454 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:08:29,489 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:08:34,481 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:08:35,078 WARNING  * Debugger is active!
+2023-04-12 19:08:35,081 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:08:35,115 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:08:39,078 INFO 127.0.0.1 - - [12/Apr/2023 19:08:39] "GET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:09:07,398 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:09:07,399 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:09:07,399 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:09:08,626 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:09:09,240 WARNING  * Debugger is active!
+2023-04-12 19:09:09,243 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:09:09,278 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:09:12,548 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:09:13,170 WARNING  * Debugger is active!
+2023-04-12 19:09:13,173 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:09:13,206 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:09:14,169 INFO 127.0.0.1 - - [12/Apr/2023 19:09:14] "GET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:09:36,326 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:09:36,326 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:09:36,326 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:09:36,326 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:09:37,550 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:09:38,171 WARNING  * Debugger is active!
+2023-04-12 19:09:38,175 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:09:38,210 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:09:40,762 INFO 127.0.0.1 - - [12/Apr/2023 19:09:40] "GET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:09:46,268 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:09:47,022 WARNING  * Debugger is active!
+2023-04-12 19:09:47,027 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:09:47,065 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:09:48,060 INFO 127.0.0.1 - - [12/Apr/2023 19:09:48] "GET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:11:20,039 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:11:20,654 WARNING  * Debugger is active!
+2023-04-12 19:11:20,658 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:11:20,692 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:11:22,900 INFO 127.0.0.1 - - [12/Apr/2023 19:11:22] "GET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:11:31,194 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:11:31,195 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:11:31,195 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:11:31,195 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:11:32,427 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:11:33,055 WARNING  * Debugger is active!
+2023-04-12 19:11:33,059 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:11:33,093 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:13:39,623 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:13:39,623 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:13:40,838 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:13:41,442 WARNING  * Debugger is active!
+2023-04-12 19:13:41,445 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:13:41,482 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:14:44,102 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:14:44,102 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:14:44,102 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:14:44,103 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:14:45,150 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:14:45,761 WARNING  * Debugger is active!
+2023-04-12 19:14:45,765 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:14:45,800 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:16:08,166 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:16:09,392 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:16:10,105 WARNING  * Debugger is active!
+2023-04-12 19:16:10,110 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:16:10,146 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:16:15,549 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:16:15,549 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:16:15,550 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:16:15,550 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:16:16,770 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:16:17,373 WARNING  * Debugger is active!
+2023-04-12 19:16:17,377 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:16:17,411 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:21:47,623 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\tools\\datetimes.py', reloading
+2023-04-12 19:21:47,689 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\indexes\\datetimes.py', reloading
+2023-04-12 19:21:47,702 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\indexes\\extension.py', reloading
+2023-04-12 19:21:47,713 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\arrays\\datetimes.py', reloading
+2023-04-12 19:21:47,735 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py', reloading
+2023-04-12 19:21:47,758 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\arrays\\_mixins.py', reloading
+2023-04-12 19:21:47,785 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py', reloading
+2023-04-12 19:21:48,859 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:21:49,588 WARNING  * Debugger is active!
+2023-04-12 19:21:49,592 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:21:49,628 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:22:11,573 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\io\\pytables.py', reloading
+2023-04-12 19:22:11,613 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\tests\\frame\\methods\\test_rank.py', reloading
+2023-04-12 19:22:11,629 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\IPython\\utils\\text.py', reloading
+2023-04-12 19:22:11,641 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\twisted\\mail\\maildir.py', reloading
+2023-04-12 19:22:11,733 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\turtle.py', reloading
+2023-04-12 19:22:11,973 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\dask\\bag\\core.py', reloading
+2023-04-12 19:22:12,009 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\dask\\dataframe\\core.py', reloading
+2023-04-12 19:22:12,131 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\common.py', reloading
+2023-04-12 19:22:12,132 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py', reloading
+2023-04-12 19:22:12,155 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\xarray\\core\\dataarray.py', reloading
+2023-04-12 19:22:13,313 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:22:13,909 WARNING  * Debugger is active!
+2023-04-12 19:22:13,913 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:22:13,948 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:22:30,553 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\twisted\\test\\test_process.py', reloading
+2023-04-12 19:22:31,602 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:22:32,246 WARNING  * Debugger is active!
+2023-04-12 19:22:32,250 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:22:32,286 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:22:39,620 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:22:39,620 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:22:39,620 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:22:39,620 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:22:40,836 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:22:41,446 WARNING  * Debugger is active!
+2023-04-12 19:22:41,451 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:22:41,491 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:22:50,148 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\panel\\examples\\apps\\django_multi_apps\\stockscreener\\pn_model.py', reloading
+2023-04-12 19:22:50,155 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\panel\\examples\\apps\\django_multi_apps\\stockscreener\\pn_model_20122019.py', reloading
+2023-04-12 19:22:50,172 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\tests\\dtypes\\test_generic.py', reloading
+2023-04-12 19:22:50,180 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\seaborn\\tests\\test_regression.py', reloading
+2023-04-12 19:22:50,228 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\seaborn\\tests\\test_axisgrid.py', reloading
+2023-04-12 19:22:50,261 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\statsmodels\\imputation\\tests\\test_ros.py', reloading
+2023-04-12 19:22:51,314 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:22:51,979 WARNING  * Debugger is active!
+2023-04-12 19:22:51,983 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:22:52,018 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:23:10,006 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:23:10,006 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:23:10,007 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:23:10,007 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:23:11,224 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:23:11,835 WARNING  * Debugger is active!
+2023-04-12 19:23:11,839 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:23:11,873 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:23:21,487 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\datetime.py', reloading
+2023-04-12 19:23:22,844 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:23:23,444 WARNING  * Debugger is active!
+2023-04-12 19:23:23,448 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:23:23,482 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:24:01,094 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\database.py', reloading
+2023-04-12 19:24:01,094 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\database.py', reloading
+2023-04-12 19:24:01,095 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\database.py', reloading
+2023-04-12 19:24:01,095 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\database.py', reloading
+2023-04-12 19:24:02,306 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:24:02,938 WARNING  * Debugger is active!
+2023-04-12 19:24:02,942 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:24:02,978 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:25:38,456 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:38,456 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:38,457 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:39,690 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:25:40,271 WARNING  * Debugger is active!
+2023-04-12 19:25:40,275 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:25:40,312 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:25:43,645 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:43,645 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:43,645 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:44,870 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:25:45,451 WARNING  * Debugger is active!
+2023-04-12 19:25:45,455 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:25:45,491 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:25:59,135 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:59,135 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:25:59,135 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:26:00,379 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:28:28,019 INFO Data ingestion process started at 1681342102.935056
+2023-04-12 19:34:28,720 INFO Data ingestion process ended at 1681342468.7203097. Number of non duplicate records ingested into the table [weather_data] : 1729957
+2023-04-12 19:37:15,812 INFO Data ingestion process started at 1681342630.5102217
+2023-04-12 19:37:35,605 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:37:36,191 WARNING  * Debugger is active!
+2023-04-12 19:37:36,196 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:37:36,233 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:37:37,402 INFO 127.0.0.1 - - [12/Apr/2023 19:37:37] "GET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:38:34,527 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:34,527 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:34,528 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:34,528 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:35,749 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:38:36,355 WARNING  * Debugger is active!
+2023-04-12 19:38:36,359 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:38:36,397 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:38:38,655 INFO 127.0.0.1 - - [12/Apr/2023 19:38:38] "[35m[1mGET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:38:46,997 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:46,998 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:46,998 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:46,998 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:38:48,225 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:38:48,814 WARNING  * Debugger is active!
+2023-04-12 19:38:48,818 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:38:48,854 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:38:51,567 INFO 127.0.0.1 - - [12/Apr/2023 19:38:51] "[35m[1mGET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:39:05,598 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:05,598 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:05,598 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:05,599 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:06,835 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:39:07,417 WARNING  * Debugger is active!
+2023-04-12 19:39:07,421 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:39:07,457 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:39:08,421 INFO 127.0.0.1 - - [12/Apr/2023 19:39:08] "[35m[1mGET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:39:34,092 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:34,092 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:34,093 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:34,093 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:39:35,313 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:39:35,979 WARNING  * Debugger is active!
+2023-04-12 19:39:35,984 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:39:36,020 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:40:43,748 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:40:43,748 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:40:43,748 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:40:43,749 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:40:44,961 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:40:45,553 WARNING  * Debugger is active!
+2023-04-12 19:40:45,557 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:40:45,593 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:41:05,939 INFO 127.0.0.1 - - [12/Apr/2023 19:41:05] "[35m[1mGET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:41:16,286 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:41:16,286 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:41:16,286 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:41:17,517 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:41:18,108 WARNING  * Debugger is active!
+2023-04-12 19:41:18,112 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:41:18,147 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:41:22,911 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:41:22,911 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:41:22,912 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:41:24,133 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:41:24,713 WARNING  * Debugger is active!
+2023-04-12 19:41:24,717 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:41:24,753 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:41:26,894 INFO 127.0.0.1 - - [12/Apr/2023 19:41:26] "GET /api/weather/stats?start_date=None&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:44:08,761 INFO 127.0.0.1 - - [12/Apr/2023 19:44:08] "GET /api/weather/stats?start_date=2000-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:44:19,941 INFO 127.0.0.1 - - [12/Apr/2023 19:44:19] "GET /api/weather/stats?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:44:47,637 INFO 127.0.0.1 - - [12/Apr/2023 19:44:47] "GET /api/weather/stats?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:45:55,078 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:45:57,228 WARNING  * Debugger is active!
+2023-04-12 19:45:57,236 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:45:57,346 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:46:26,036 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:46:28,146 WARNING  * Debugger is active!
+2023-04-12 19:46:28,153 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:46:28,258 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:47:13,886 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\io\\formats\\style.py', reloading
+2023-04-12 19:47:13,891 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\compat\\_optional.py', reloading
+2023-04-12 19:47:15,095 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:47:16,988 WARNING  * Debugger is active!
+2023-04-12 19:47:16,995 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:47:17,091 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:47:58,155 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:48:00,446 WARNING  * Debugger is active!
+2023-04-12 19:48:00,458 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:48:00,573 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:48:08,206 INFO 127.0.0.1 - - [12/Apr/2023 19:48:08] "GET /api/weather/stats?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:49:20,913 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:49:21,618 WARNING  * Debugger is active!
+2023-04-12 19:49:21,622 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:49:21,662 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:49:22,934 INFO 127.0.0.1 - - [12/Apr/2023 19:49:22] "GET /api/weather/stats?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:49:54,510 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:49:54,511 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:49:54,511 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 19:49:55,741 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:49:56,537 WARNING  * Debugger is active!
+2023-04-12 19:49:56,542 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:49:56,584 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:49:57,156 INFO 127.0.0.1 - - [12/Apr/2023 19:49:57] "GET /api/weather/stats?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:50:15,874 INFO 127.0.0.1 - - [12/Apr/2023 19:50:15] "GET /api/weather/stats?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:50:35,291 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2023-04-12 19:50:35,296 INFO 127.0.0.1 - - [12/Apr/2023 19:50:35] "[35m[1mGET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:50:36,352 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:50:37,015 WARNING  * Debugger is active!
+2023-04-12 19:50:37,020 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:50:37,061 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:51:05,526 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\core.py', reloading
+2023-04-12 19:51:05,538 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py', reloading
+2023-04-12 19:51:06,860 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:51:07,470 WARNING  * Debugger is active!
+2023-04-12 19:51:07,474 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:51:07,510 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:51:24,344 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:24,344 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:24,344 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:24,344 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:25,554 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:51:26,136 WARNING  * Debugger is active!
+2023-04-12 19:51:26,140 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:51:26,176 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:51:30,852 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:30,852 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:30,853 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:30,853 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:32,077 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:51:32,671 WARNING  * Debugger is active!
+2023-04-12 19:51:32,675 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:51:32,712 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:51:33,121 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:33,121 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:33,122 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:33,122 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:51:34,373 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:51:34,986 WARNING  * Debugger is active!
+2023-04-12 19:51:34,990 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:51:35,026 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:51:36,376 INFO 127.0.0.1 - - [12/Apr/2023 19:51:36] "[35m[1mGET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:52:01,489 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:52:01,490 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:52:01,490 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:52:01,490 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:52:02,721 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:52:03,309 WARNING  * Debugger is active!
+2023-04-12 19:52:03,313 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:52:03,351 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:52:40,854 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:52:40,854 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:52:40,854 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:52:42,068 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:52:42,677 WARNING  * Debugger is active!
+2023-04-12 19:52:42,681 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:52:42,719 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:52:43,703 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2023-04-12 19:52:43,709 INFO 127.0.0.1 - - [12/Apr/2023 19:52:43] "[35m[1mGET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:52:44,767 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:52:45,462 WARNING  * Debugger is active!
+2023-04-12 19:52:45,467 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:52:45,510 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:53:13,191 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:53:13,191 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:53:13,191 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:53:13,192 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:53:14,245 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:53:14,844 WARNING  * Debugger is active!
+2023-04-12 19:53:14,848 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:53:14,884 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:53:16,439 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:53:16,439 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:53:16,439 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:53:17,649 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:53:18,219 WARNING  * Debugger is active!
+2023-04-12 19:53:18,223 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:53:18,260 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:53:20,271 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\io\\json\\_json.py', reloading
+2023-04-12 19:53:20,272 INFO  * Detected change in 'C:\\Users\\abhis\\anaconda3\\Lib\\site-packages\\pandas\\io\\common.py', reloading
+2023-04-12 19:53:20,273 INFO 127.0.0.1 - - [12/Apr/2023 19:53:20] "[35m[1mGET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:53:21,363 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:53:22,025 WARNING  * Debugger is active!
+2023-04-12 19:53:22,029 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:53:22,066 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:54:18,911 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:54:18,911 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:54:18,912 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:54:18,912 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:54:20,134 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:54:20,721 WARNING  * Debugger is active!
+2023-04-12 19:54:20,725 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:54:20,761 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:54:22,591 INFO 127.0.0.1 - - [12/Apr/2023 19:54:22] "[35m[1mGET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1[0m" 500 -
+2023-04-12 19:54:32,166 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:54:32,166 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:54:32,166 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:54:33,410 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:54:34,042 WARNING  * Debugger is active!
+2023-04-12 19:54:34,046 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:54:34,082 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:54:34,463 INFO 127.0.0.1 - - [12/Apr/2023 19:54:34] "GET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:54:51,221 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:54:51,819 WARNING  * Debugger is active!
+2023-04-12 19:54:51,823 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:54:51,859 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:54:52,715 INFO 127.0.0.1 - - [12/Apr/2023 19:54:52] "GET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:55:24,030 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:55:24,030 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:55:24,030 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:55:24,030 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:55:25,750 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:55:26,374 WARNING  * Debugger is active!
+2023-04-12 19:55:26,378 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:55:26,418 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:56:48,808 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:48,809 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:48,809 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:48,809 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:50,028 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:56:50,608 WARNING  * Debugger is active!
+2023-04-12 19:56:50,612 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:56:50,648 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:56:53,462 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:53,462 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:53,463 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:53,463 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:56:54,685 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:56:55,268 WARNING  * Debugger is active!
+2023-04-12 19:56:55,272 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:56:55,308 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:56:59,167 INFO 127.0.0.1 - - [12/Apr/2023 19:56:59] "GET /api/weather?start_date=2014-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:57:10,643 INFO 127.0.0.1 - - [12/Apr/2023 19:57:10] "GET /api/weather?start_date=2012-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 19:57:38,831 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:57:38,831 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:57:38,832 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:57:38,832 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\service.py', reloading
+2023-04-12 19:57:40,074 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 19:57:40,663 WARNING  * Debugger is active!
+2023-04-12 19:57:40,667 INFO  * Debugger PIN: 351-119-005
+2023-04-12 19:57:40,702 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 19:58:14,125 INFO 127.0.0.1 - - [12/Apr/2023 19:58:14] "GET /api/weather?start_date=1985-01-01&end_date=None&station_id=None HTTP/1.1" 200 -
+2023-04-12 20:05:14,449 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 20:05:14,449 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 20:05:14,450 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 20:05:14,450 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 20:05:15,511 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 20:05:16,102 WARNING  * Debugger is active!
+2023-04-12 20:05:16,106 INFO  * Debugger PIN: 351-119-005
+2023-04-12 20:05:16,143 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 20:05:17,585 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 20:05:17,585 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 20:05:17,585 INFO  * Detected change in 'D:\\Abhi\\code-challenge-template\\src\\data_operations.py', reloading
+2023-04-12 20:05:18,809 INFO  * Restarting with watchdog (windowsapi)
+2023-04-12 20:05:19,406 WARNING  * Debugger is active!
+2023-04-12 20:05:19,410 INFO  * Debugger PIN: 351-119-005
+2023-04-12 20:05:19,447 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-12 23:08:03,919 INFO Error 'Analysis' object has no attribute 'duplicate_check' occurred at 1681355279.9298594 while inserting data into [weather_data_stats]
+2023-04-12 23:08:36,260 INFO Error 'Analysis' object has no attribute 'duplicate_check' occurred at 1681355312.5296574 while inserting data into [weather_data_stats]
+2023-04-12 23:10:53,827 INFO Error column "max_temperature" does not exist
+LINE 1: ... WHERE year=1985 AND station_id='USC00110072' AND max_temper...
+                                                             ^
+ occurred at 1681355450.1219184 while inserting data into [weather_data_stats]
+2023-04-12 23:11:47,477 INFO Error column "max_temperature" does not exist
+LINE 1: ... WHERE year=1985 AND station_id='USC00110072' AND max_temper...
+                                                             ^
+ occurred at 1681355503.6959715 while inserting data into [weather_data_stats]
+2023-04-12 23:12:40,437 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681355556.006606 while inserting data into [weather_data_stats]
+2023-04-12 23:13:09,820 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681355585.329686 while inserting data into [weather_data_stats]
+2023-04-12 23:15:08,465 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681355704.1036224 while inserting data into [weather_data_stats]
+2023-04-12 23:21:20,526 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681356038.605455 while inserting data into [weather_data_stats]
+2023-04-12 23:54:59,526 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681358095.0893788 while inserting data into [weather_data_stats]
+2023-04-12 23:55:36,099 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681358131.7699792 while inserting data into [weather_data_stats]
+2023-04-12 23:57:18,524 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681358234.224174 while inserting data into [weather_data_stats]
+2023-04-13 00:00:34,495 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681358430.1299765 while inserting data into [weather_data_stats]
+2023-04-13 00:01:09,192 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681358464.7642007 while inserting data into [weather_data_stats]
+2023-04-13 00:03:01,259 INFO Error argument 1 must be a string or unicode object: got tuple instead occurred at 1681358580.6251528 while inserting data into [weather_data_stats]
+2023-04-13 00:07:10,862 INFO Data ingestion process ended at 1681358830.8622444. Number of non duplicate records ingested into the table [weather_data_stats] : 4791
+2023-04-13 02:17:19,196 INFO Data ingestion process started at 1681366639.1964328
+2023-04-13 02:17:21,228 INFO Data ingestion process ended at 1681366641.2289784. Number of non duplicate records ingested into the table [weather_data_stats] : 4791
+2023-04-13 02:18:26,663 INFO Data ingestion process started at 1681366706.663756
+2023-04-13 02:18:26,668 INFO Error relation "weather_data_stats" does not exist
+LINE 1: SELECT EXISTS(SELECT 1 FROM weather_data_stats WHERE year=19...
+                                    ^
+ occurred at 1681366706.663756 while inserting data into [weather_data_stats]
+2023-04-13 02:21:44,230 INFO Data ingestion process started at 1681366904.230647
+2023-04-13 02:21:45,066 INFO Data ingestion process ended at 1681366905.0662384. Number of non duplicate records ingested into the table [weather_data_stats] : 4791
+2023-04-13 02:23:34,946 INFO Data ingestion process started at 1681367014.9466062
+2023-04-13 02:23:38,534 INFO Data ingestion process ended at 1681367018.5344472. Number of non duplicate records ingested into the table [weather_data_stats] : 0
+2023-04-13 02:25:28,117 INFO Data ingestion process started at 1681367128.1173074
+2023-04-13 02:25:29,322 INFO Data ingestion process ended at 1681367129.322721. Number of non duplicate records ingested into the table [weather_data_stats] : 0
+2023-04-13 16:03:51,718 INFO Data ingestion process started at 1681416231.718781
+2023-04-13 16:03:52,999 INFO Data ingestion process ended at 1681416232.999118. Number of non duplicate records ingested into the table [weather_data_stats] : 0
+2023-04-13 16:10:41,961 INFO Data ingestion process started at 1681416641.9619572
+2023-04-13 16:10:43,230 INFO Data ingestion process ended at 1681416643.230596. Number of non duplicate records ingested into the table [weather_data_stats] : 0
+2023-04-13 18:36:29,669 INFO  * Restarting with watchdog (windowsapi)
+2023-04-13 18:36:30,258 WARNING  * Debugger is active!
+2023-04-13 18:36:30,262 INFO  * Debugger PIN: 351-119-005
+2023-04-13 18:36:30,300 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
