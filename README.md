@@ -19,7 +19,7 @@ then install the requirements.txt file using pip install -r requirements.txt com
     ###### Python code used:
         * src/data_operations.py InsertData module
         * Checking for duplicate records first and then proceed with ingestion
-    ![img.png](2.Data Ingestion/img.png)
+    ![img.png](answers/2.Data Ingestion/img.png)
 3. #### Data Analysis : to do statistical analysis and store that in weather_data_stats table in PostgreSQL
     ###### Python code used:
         # src/analyze.py Analysis Module
@@ -36,7 +36,7 @@ then install the requirements.txt file using pip install -r requirements.txt com
    * Code used :
      * src/data_operations.py Fetch Data Module
      * /api/weather : service.py get_weather_data()
-     ![img.png](4.REST API/img.png)
+     ![img.png](answers/4.REST API/img.png)
      * /api/weather/stats: service.py get_weather_data_stats()
      ![stats result.PNG](4.REST%20API%2Fstats%20result.PNG)
      
