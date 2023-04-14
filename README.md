@@ -6,20 +6,20 @@ then install the requirements.txt file using pip install -r requirements.txt com
 ## src folder containing python modules of the application
 1. #### Data Modelling: Database creation with respective tables to store data using src/db_conn.py
     ###### Table to store weather data from wx_data folder
-    ![weather data table.PNG](1.Data%20Modeling%2Fweather%20data%20table.PNG)
+    ![weather data table.PNG](answers%2F1.Data%20Modeling%2Fweather%20data%20table.PNG)
     ###### Table to store yield data from yld_data folder
-    ![yield table.PNG](1.Data%20Modeling%2Fyield%20table.PNG)
+    ![yield table.PNG](answers%2F1.Data%20Modeling%2Fyield%20table.PNG)
     ###### For every year, for every weather station, calculate: Table to store calculated stats data
         * Average maximum temperature (in degrees Celsius)
         * Average minimum temperature (in degrees Celsius)
         * Total accumulated precipitation (in centimeters)
-    ![weather stats table.PNG](1.Data%20Modeling%2Fweather%20stats%20table.PNG)
+    ![weather stats table.PNG](answers%2F1.Data%20Modeling%2Fweather%20stats%20table.PNG)
 
 2. #### Ingestion : Write code to ingest the weather data from the raw text files supplied into your database, using the model you designed. Check for duplicates: if your code is run twice, you should not end up with multiple rows with the same data in your database. Your code should also produce log output indicating start and end times and number of records ingested.
     ###### Python code used:
         * src/data_operations.py InsertData module
         * Checking for duplicate records first and then proceed with ingestion
-    ![img.png](answers/2.Data Ingestion/img.png)
+    ![img.png](answers%2F2.Data%20Ingestion%2Fimg.png)
 3. #### Data Analysis : to do statistical analysis and store that in weather_data_stats table in PostgreSQL
     ###### Python code used:
         # src/analyze.py Analysis Module
@@ -36,9 +36,9 @@ then install the requirements.txt file using pip install -r requirements.txt com
    * Code used :
      * src/data_operations.py Fetch Data Module
      * /api/weather : service.py get_weather_data()
-     ![img.png](answers/4.REST API/img.png)
+     ![img.png](answers%2F4.REST%20API%2Fimg.png)
      * /api/weather/stats: service.py get_weather_data_stats()
-     ![stats result.PNG](4.REST%20API%2Fstats%20result.PNG)
+     ![stats result.PNG](answers%2F4.REST%20API%2Fstats%20result.PNG)
      
    ##### * Fetch Data Module
          * The __init__ method initializes the class with the given parameters, including start_date, end_date, station_id, page_size, and page_number. 
@@ -50,9 +50,14 @@ then install the requirements.txt file using pip install -r requirements.txt com
             Creating a visualization from the whole statistics would be easy without the pagination
    
 5. #### Swagger API: Include a Swagger/OpenAPI endpoint that provides automatic documentation of your API.
-    ![weather api swagger.PNG](5.Swagger%2Fweather%20api%20swagger.PNG)
-    ![weather stats api swagger.PNG](5.Swagger%2Fweather%20stats%20api%20swagger.PNG)
-    ![weather data api response.PNG](5.Swagger%2Fweather%20data%20api%20response.PNG)
+###### weather api swagger screenshot
+   ![weather api swagger.PNG](answers%2F5.Swagger%2Fweather%20api%20swagger.PNG)
+###### weather stats api swagger screenshot
+   ![weather stats api swagger.PNG](answers%2F5.Swagger%2Fweather%20stats%20api%20swagger.PNG)
+###### weather data api response swagger screenshot
+   ![weather data api response.PNG](answers%2F5.Swagger%2Fweather%20data%20api%20response.PNG)
+###### weather api swagger flask screenshot
+   ![swagger api flask.PNG](answers%2F5.Swagger%2Fswagger%20api%20flask.PNG)
 
 6. #### Deployment: Assume you are asked to get your code running in the cloud using AWS. What tools and AWS services would you use to deploy the API, database, and a scheduled version of your data ingestion code? Write up a description of your approach.
    
