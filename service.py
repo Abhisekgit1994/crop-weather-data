@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 from flask_swagger import swagger
-from flask_swagger_ui import get_swaggerui_blueprint
+import flask_swagger_ui
 import psycopg2
 from src.data_operations import FetchData
 from src.db_conn import Database
@@ -17,7 +17,7 @@ CORS(app)  # cross origin request support
 Swagger_URL = '/swagger'
 api_URL = '/swagger.json'
 
-swagger_blueprint = get_swaggerui_blueprint(
+swagger_blueprint = flask_swagger_ui.get_swaggerui_blueprint(
     Swagger_URL,
     api_URL,
     config={

@@ -11,6 +11,7 @@ from data_operations import FetchData
 
 class Analysis:
     def __init__(self):
+        # create Database instance to create database connection and cursor instance
         self.db = Database()
         self.weather_table_name = 'weather_data'
         self.fetch_queries = {

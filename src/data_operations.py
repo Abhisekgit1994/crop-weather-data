@@ -155,7 +155,7 @@ class FetchData:
         self.fetch_queries[self.weather_table_name] += f" AND precipitation_amount <> -9999 "
         # page_size is the number of rows to return per page, and page_number is the current page number.
         # The first page has a page_number of 1, and the OFFSET is calculated as (page_number - 1) * page_size
-        self.fetch_queries[self.weather_table_name] += f" LIMIT {self.page_size} OFFSET {((self.page_num - 1) * self.page_size)}"
+        # self.fetch_queries[self.weather_table_name] += f" LIMIT {self.page_size} OFFSET {((self.page_num - 1) * self.page_size)}"
         df = pd.read_sql(self.fetch_queries[self.weather_table_name], self.db.conn)
         return df
 
